@@ -1,4 +1,4 @@
-require pry
+require 'pry'
 
 def new_hash
   # return an empty hash
@@ -26,5 +26,5 @@ def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
   id_hash = {}
   id_hash[:id] = number
-   binding.pry
+  binding.pry
 end
